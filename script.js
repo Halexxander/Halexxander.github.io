@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
   video.addEventListener("loadedmetadata", function () {
     setTimeout(function () {
       loader.style.display = "none";
-    }, video.duration * 1000); // Multiply by 1000 to convert seconds to milliseconds
+    }, video.duration * 600); // Multiply by 1000 to convert seconds to milliseconds
   });
 });
 
